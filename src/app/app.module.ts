@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { HeaderComponent } from './header/header.component';
+import { MainPortalComponent } from './main-portal/main-portal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    MainPortalComponent
   ],
   imports: [
     BrowserModule
